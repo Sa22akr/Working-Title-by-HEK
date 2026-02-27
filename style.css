@@ -274,6 +274,24 @@ nav a:hover {
   display: flex;
 }
 
+.right-links a {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.right-links img {
+  width: 20px;   /* adjust size */
+  height: 20px;
+  object-fit: contain;
+  transition: 0.3s ease;
+}
+
+.right-links img:hover {
+  opacity: 0.6;
+  transform: translateY(-2px);
+}
+
 /* ================= RESPONSIVE ================= */
 
 @media (max-width: 768px) {
