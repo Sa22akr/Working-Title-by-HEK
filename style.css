@@ -60,19 +60,55 @@ header {
   top: 30px;
   left: 50%;
   transform: translateX(-50%);
-  width: 70%;
-  padding: 15px 40px;
-  background: rgba(255,255,255,0.7);
-  backdrop-filter: blur(15px);
-  border-radius: 30px;
+  width: 80%;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   z-index: 1000;
 }
 
+/* Glass nav box */
+.nav-container {
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(15px);
+  border-radius: 40px;
+  padding: 15px 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 85%;
+}
+
+/* Cart icon outside */
+.cart-icon {
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(15px);
+  border-radius: 50%;
+  padding: 15px;
+  margin-left: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-icon img {
+  width: 18px;
+  height: 18px;
+  transition: 0.3s ease;
+}
+
+.cart-icon img:hover {
+  opacity: 0.6;
+}
+
+
 .logo img {
-  height: 45px;
+  height: 40px;
   transition: 0.4s ease;
 }
 
